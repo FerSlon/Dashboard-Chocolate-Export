@@ -1,4 +1,4 @@
-```
+```python
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -48,4 +48,4 @@ ax2.set_ylabel("Tamaño del Mercado (USD millones)")
 ax2.set_title("Comparación de Tamaños de Mercado")
 plt.xticks(rotation=45)
 st.pyplot(fig2)
-```
+
